@@ -99,7 +99,7 @@ div, section {
   width: 80%;
 }
 
-.two-columns__brief{
+.two-columns__brief {
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -113,7 +113,7 @@ div, section {
   min-width: 784px;
 }
 
-.two-columns__paragraph{
+.two-columns__paragraph {
   margin: 0;
   font-size: 24px;
   line-height: 34px;
@@ -133,47 +133,22 @@ div, section {
 
 /* ========== DIGITS ========== */
 
-.digits {}
-
-.section-title {
-  margin: 0 auto;
-  width: 60%;
+.digits {
   text-align: center;
 }
 
-.section-title_theme_light {
-  margin-top: 100px;
-  color: #000;
-}
-
-.section-title_theme_dark {
-  margin-top: 90px;
-  color: #fff;
-}
-
-.section-subtitle_theme_light {
-  color: #000;
-}
-
-.section-subtitle_theme_dark {
-  color: #fff;
-}
-
-.section-title_h1 {
-  margin: 0;
+.section-title {
+  margin: 100px auto 20px;
+  width: 60%;
   font-size: 60px;
   font-weight: 700;
   line-height: 69px;
+  color: #000;
 }
 
 .section-subtitle {
-  margin: 20px auto 0;
+  margin: 0 auto;
   width: 60%;
-  text-align: center;
-}
-
-.section-subtitle_h3 {
-  margin: 0;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -181,19 +156,19 @@ div, section {
 
 .table {
   width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
   z-index: 2;
 }
 
-.table_margin-bottom_100 {
-  margin-bottom: 100px;
-}
-
-.table_margin-bottom_90 {
-  margin-bottom: 90px;
+.table__cell {
+  width: 250px;
+  color: #000;
+  margin-right: 0;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -201,6 +176,7 @@ div, section {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.15;
+  text-align: start;
 }
 
 .table__text {
@@ -209,15 +185,23 @@ div, section {
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
+  text-align: start;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 
-.table__cell_theme_light {
-  width: 250px;
-  color: #000;
-  margin-right: 0;
-  margin-top: 60px;
+.section-title_theme_dark {
+  margin-top: 90px;
+  color: #fff;
+}
+
+.section-subtitle_theme_dark {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.table_theme_dark {
+  margin: 0 auto 80px;
 }
 
 .table__cell_theme_dark {
@@ -289,6 +273,7 @@ div, section {
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .kaufman__triangle {
