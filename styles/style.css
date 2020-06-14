@@ -349,25 +349,19 @@ div, section {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
   line-height: 30px;
   color: #fff;
 }
 
-.footer__social-icon {
-  margin: 20px 0 16px;
-  list-style-type: none;
-  padding: 0pt;
-}
-
 .footer__social-icon__link {
   margin: 0;
-  text-decoration: none;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
   color: #fff;
 }
 
-.footer__social-icon__image {
+.footer__social-icon {
   margin-right: 10px;
 }
