@@ -345,7 +345,7 @@ div, section {
   padding: 0;
 }
 
-.footer__column-links__link {
+.footer__link {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
@@ -355,6 +355,8 @@ div, section {
 
 .footer__social-icon {
   margin: 20px 0 16px;
+  list-style-type: none;
+  padding: 0pt;
 }
 
 .footer__social-icon__link {
