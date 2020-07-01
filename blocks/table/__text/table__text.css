@@ -6,3 +6,5 @@
   line-height: 1.2;
   text-align: start;
 }
+
+@import url(_theme/table__text_theme_dark.css);
