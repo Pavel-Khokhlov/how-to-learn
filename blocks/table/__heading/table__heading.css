@@ -1,3 +1,4 @@
+@import url(_theme/table__heading_theme_dark.css);
 .table__heading {
   margin: 0;
   font-size: 24px;
@@ -5,5 +6,3 @@
   line-height: 1.15;
   text-align: start;
 }
-
-@import url(_theme/table__heading_theme_dark.css);
