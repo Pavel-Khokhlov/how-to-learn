@@ -1,6 +1,9 @@
-Проектная работа "Научиться учиться"
-Проектная работа от Yandex Практикум. Спринт 1 + 2. Одностраничный сайт. Использованы технологии: position, flex, grid, transform, animation, БЭМ.
-Необходимо доработать переходы по ссылкам,  добавить адаптивность для мобильных устройств.
+# Sprint 1 & 2 Yandex Practikum
 
-Перевел  Альты на русский язык
-Убрал красный бордюр у секций
+* [Link to the project](https://pavel-khokhlov.github.io/how-to-learn/index.html)
+
+First Project "Learn to learn"
+Single page site
+
+* Technolodies:
+Position, Flex, Grid, Transform, Animation, BEM.
