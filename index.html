@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="pages/index.css" /><!-- normalize.css подключил в index.css-->
+  <link rel="stylesheet" href="pages/index.css" />
   <title>Научиться учиться</title>
 </head>
 
@@ -17,7 +17,6 @@
     <header class="header">
       <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="логотип Яндекс Практикумi">
       <img class="header__main-illustration" src="images/header-image.png" alt="картина Опять двойка!" />
-      <!-- создал класс rotation с анимацией -->
       <div class="header__square-pic rotation"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
@@ -35,7 +34,6 @@
 
       <section class="description">
         <div class="two-columns">
-          <!-- удалил отступы для блока -->
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -114,7 +112,6 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <!-- убрал frameborder в css -->
           <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
@@ -126,7 +123,6 @@
 
       <section class="oakley">
         <div class="two-columns">
-          <!-- удалил отступы для блока -->
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -214,10 +210,8 @@
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <!-- -сделал  контентное изображание -->
             <img class="khan__book-pic" src="images/khan-book.jpg" alt="книга обложка Салман Хан">
-            <!-- подправил ссылку flex-start -->
-            <a href=" #" class="khan__buy-link">Купить книгу &rarr;</a>
+            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -231,8 +225,6 @@
         <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
         </p>
-        <!-- добавил z-index к заголовкам -->
-        <!-- создал класс rotation с анимацией -->
         <div class="kaufman__triangle rotation"></div>
         <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
@@ -299,23 +291,24 @@
       </section>
 
 
-    <!-- ========== RESOURCES ==========-->
+      <!-- ========== RESOURCES ==========-->
 
-    <section class="resources">
-      <h2 class="section-title">Полезные ресурсы</h2>
-      <p class="section-subtitle section-subtitle_position_relative">Больше материалов о техниках и лайфхаках обучения
-      </p>
-      <!-- исправил на блок ссылок -->
-      <ul class="resources__logo-zone">
-        <!-- добавил имена логотипов в alt -->
-        <li><a href="#"><img class="resources__logo" src=" images/logo/resources-arzamas.svg" alt="логотип Arzamas"></a>
-        </li>
-        <li><a href="#"><img class="resources__logo" src=" images/logo/resources-n1.svg" alt="логотип N+1"></a></li>
-        <li><a href="#"><img class="resources__logo" src=" images/logo/resources-strelka.svg" alt="логотип Strelka"></a>
-        </li>
-        <li><a href="#"><img class="resources__logo" src=" images/logo/resources-polka.svg" alt="логотип Полка"></a></li>
-      </ul>
-    </section>
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle section-subtitle_position_relative">Больше материалов о техниках и лайфхаках обучения
+        </p>
+        <ul class="resources__logo-zone">
+          <li><a href="#"><img class="resources__logo" src=" images/logo/resources-arzamas.svg"
+                alt="логотип Arzamas"></a>
+          </li>
+          <li><a href="#"><img class="resources__logo" src=" images/logo/resources-n1.svg" alt="логотип N+1"></a></li>
+          <li><a href="#"><img class="resources__logo" src=" images/logo/resources-strelka.svg"
+                alt="логотип Strelka"></a>
+          </li>
+          <li><a href="#"><img class="resources__logo" src=" images/logo/resources-polka.svg" alt="логотип Полка"></a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <!--========== FOOTER ==========-->
@@ -338,10 +331,8 @@
           <h5 class="footer__column-heading">Соцсети</h5>
           <ul class="footer__column-links">
             <li>
-              <!-- исправил ссылки -->
-              <!-- добавил icon к имени в alt -->
               <a href="#" class="footer__link"><img class=" footer__social-icon" src="images/facebook_color_white.svg"
-                alt="иконка Facebook" />Facebook</a>
+                  alt="иконка Facebook" />Facebook</a>
             </li>
             <li>
               <a href="#" class="footer__link"><img class="footer__social-icon" src="images/vk_color_white.svg"
